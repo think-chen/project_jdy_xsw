@@ -1,0 +1,673 @@
+.serch{
+    background: url("img/dest/serch.png") no-repeat;
+    width: 38.5px;
+    height: 47.5px;
+    background-size: 100%;
+}
+.logo{
+     background: url("img/dest/logo.png") no-repeat;
+    width: 93.5px;
+    height: 67px;
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+}
+.search_input_out i{
+    background: url("img/dest/fangda.png") no-repeat;
+    width: 17px;
+    height: 16px;
+    background-size: 100%;
+    display: inline-block;
+        margin-top: 14px;
+    margin-left: 14px;
+}
+.zhuanti{
+        background: url("img/dest/zhuanti.png") no-repeat;
+    width: 129px;
+    height: 69.5px;
+    background-size: 100%;
+    position: absolute;
+    left: 106px;
+}
+.part2_contain ul li.first i{
+    background: url("img/dest/sy.png") no-repeat;
+     width: 36.5px;
+    height: 31px;
+    background-size: 100%;
+    display: block;
+        margin-left: 35px;
+             margin-bottom: 6px;
+}
+.part2_contain ul li.two i{
+    background: url("img/dest/zx.png") no-repeat;
+    width: 36.5px;
+    height: 31px;
+    background-size: 100%;
+    display: block;
+        margin-left: 37px;
+            margin-bottom: 6px;
+}
+
+.part2_contain ul li.three i{
+    background: url("img/dest/dsy.png") no-repeat;
+    width: 36.5px;
+    height: 31px;
+    background-size: 100%;
+    display: block;
+        margin-left: 37px;
+            margin-bottom: 6px;
+}
+
+.part2_contain ul li.four i{
+    background: url("img/dest/xs.png") no-repeat;
+    width: 36.5px;
+    height: 31px;
+    background-size: 100%;
+    display: block;
+        margin-left: 37px;
+            margin-bottom: 6px;
+}
+
+.part2_contain ul li.five i{
+    background: url("img/dest/zypd.png") no-repeat;
+    width: 36.5px;
+    height: 31px;
+    background-size: 100%;
+    display: block;
+        margin-left: 36px;
+              margin-bottom: 6px;
+}
+
+.part2_contain ul li.six i{
+    background: url("img/dest/sp.png") no-repeat;
+    width: 36.5px;
+    height: 31px;
+    background-size: 100%;
+    display: block;
+        margin-left: 37px;
+              margin-bottom: 6px;
+}
+
+.part2_contain ul li.seven i{
+    background: url("img/dest/pc.png") no-repeat;
+    width: 36.5px;
+    height: 31px;
+    background-size: 100%;
+    display: block;
+        margin-left: 37px;
+             margin-bottom: 6px;
+}
+
+.part2_contain ul li.eight i{
+    background: url("img/dest/hd.png") no-repeat;
+    width: 36.5px;
+    height: 31px;
+    background-size: 100%;
+    display: block;
+        margin-left: 37px;
+              margin-bottom: 6px;
+}
+
+.part2_contain ul li.nine i{
+    background: url("img/dest/sq.png") no-repeat;
+    width: 36.5px;
+    height: 31px;
+    background-size: 100%;
+    display: block;
+        margin-left: 37px;
+              margin-bottom: 6px;
+}
+
+.part2_contain ul li.ten i{
+    background: url("img/dest/cpk.png") no-repeat;
+    width: 36.5px;
+    height: 31px;
+    background-size: 100%;
+    display: block;
+        margin-left: 37px;
+             margin-bottom: 6px;
+}
+.part3_contain_right_top1 .ewm{
+    width: 15px;
+    height: 15px;
+    background-size: 100%;
+    background: url("img/dest/ewm.png") no-repeat;
+    top: 28px;
+    right: 24px;
+}
+.part3_contain_right_top1 .one{
+    background: url("img/dest/xs1.png")no-repeat;
+    width: 46.5px;
+    height: 46.5px;
+    background-size: 100%;
+        top: 12px;
+    left: 26px;
+}
+
+
+.part3_contain_right_top2 .one{
+    background: url("img/dest/xs2.png")no-repeat;
+    width: 46.5px;
+    height: 46.5px;
+    background-size: 100%;
+        top: 12px;
+    left: 26px;
+}
+
+
+.part3_contain_right_top2  .ewm{
+    width: 15px;
+    height: 15px;
+    background-size: 100%;
+    background: url("img/dest/ewm.png") no-repeat;
+    top: 28px;
+    right: 24px;
+}
+.part3_contain_right_top3 ul li.first i{
+    display: block;
+    background: url("img/dest/img1.png") no-repeat;
+    width: 45.5px;
+    height: 45.5px;
+    background-size: 100%;
+    margin-left: 33px;
+    margin-top: 9px;
+}
+
+
+.part3_contain_right_top3 ul li.two i{
+    display: block;
+    background: url("img/dest/img2.png") no-repeat;
+    width: 45.5px;
+    height: 45.5px;
+    background-size: 100%;
+    margin-left: 33px;
+    margin-top: 9px;
+}
+
+
+.part3_contain_right_top3 ul li.three i{
+    display: block;
+    background: url("img/dest/img3.png") no-repeat;
+    width: 45.5px;
+    height: 45.5px;
+    background-size: 100%;
+    margin-left: 33px;
+    margin-top: 9px;
+}
+.tittle .zb{
+    float: left;
+    background: url("img/dest/1.1.png") no-repeat;
+    width: 27px;
+    height: 27px;
+    background-size: 100%;
+        margin-left: 5px;
+}
+.introdz li .touxiang{
+    background: url("img/dest/1.2.png") no-repeat;
+    width: 49px;
+    height: 50px;
+    background-size: 100%;
+    display: inline-block;
+        margin-top: 10px;
+}
+
+.introdz li .look i{
+    display: inline-block;
+    background: url("img/dest/ico1.png") no-repeat;
+    width: 22px;
+    height: 12.5px;
+    background-size: 100%;
+        margin-right: 5px;
+            vertical-align: text-top;
+}
+
+.introdz li .pinglun i{
+    display: inline-block;
+    background: url("img/dest/ico2.png") no-repeat;
+    width: 15px;
+    height: 14px;
+    background-size: 100%;
+        margin-right: 5px;
+            vertical-align: text-top;
+}
+
+.introdz li .img{
+    background: url("img/dest/2.1.png") no-repeat;
+    background-size: 100%;
+    width: 137px;
+    height: 102.5px;
+    position: absolute;
+    top: 73px;
+}
+.introdz li .introduce{
+    color: #7b7b7b;
+    font-size: 13px;
+    width: 569px;
+    position: absolute;
+    left: 146px;
+    top: 73px;
+    line-height: 2;
+}
+
+.introdz li.one .touxiang{
+    background: url("img/dest/1.3.png") no-repeat;
+    width: 49px;
+    height: 50px;
+    background-size: 100%;
+    display: inline-block;
+        margin-top: 10px;
+}
+.introdz li.two .touxiang{
+    background: url("img/dest/1.4.png") no-repeat;
+    width: 49px;
+    height: 50px;
+    background-size: 100%;
+    display: inline-block;
+        margin-top: 10px;
+}
+.introdz li.three .touxiang{
+    background: url("img/dest/1.5.png") no-repeat;
+    width: 49px;
+    height: 50px;
+    background-size: 100%;
+    display: inline-block;
+        margin-top: 10px;
+}
+.introdz li.four .touxiang{
+    background: url("img/dest/1.6.png") no-repeat;
+    width: 49px;
+    height: 50px;
+    background-size: 100%;
+    display: inline-block;
+        margin-top: 10px;
+}
+
+.introdz li.one .img{
+     background: url("img/dest/2.2.png") no-repeat;
+    background-size: 100%;
+    width: 137px;
+    height: 102.5px;
+    position: absolute;
+    top: 73px;
+}
+.introdz li.three .img{
+     background: url("img/dest/2.3.png") no-repeat;
+    background-size: 100%;
+    width: 137px;
+    height: 102.5px;
+    position: absolute;
+    top: 73px;
+}
+.introdz li.four .img{
+     background: url("img/dest/2.4.png") no-repeat;
+    background-size: 100%;
+    width: 137px;
+    height: 102.5px;
+    position: absolute;
+    top: 73px;
+}
+.introdz li.five .img{
+     background: url("img/dest/2.5.png") no-repeat;
+    background-size: 100%;
+    width: 137px;
+    height: 102.5px;
+    position: absolute;
+    top: 73px;
+}
+.part5_contain_right_top1 .oneimg{
+    background: url("img/dest/rd1.png") no-repeat;
+    width: 141px;
+    height: 87px;
+    background-size: 100%;
+    position: absolute;
+    top: 78px;
+    left: 27px;
+}
+.part5_contain_right_top1 .one{
+    background: url("img/dest/2.png") no-repeat;
+    width: 27px;
+    height: 23px;
+    background-size: 100%;
+    position: absolute;
+    top: 72px;
+    left: 33px;
+}
+
+.block .one i{
+    display: inline-block;
+    background: url("img/dest/se1.png") no-repeat;
+    width: 24px;
+    height: 30px;
+    background-size: 100%;
+    position: absolute;
+    top: 16px;
+    left: 26px;
+}
+.block .one em{
+        font-size: 16px;
+    position: absolute;
+    left: 64px;
+    top: 19px;
+}
+.block .one .img{
+    display: block;
+    background: url("img/dest/z1.png") no-repeat;
+    width: 66px;
+    height: 64px;
+    background-size: 100%;
+        position: absolute;
+    left: 247px;
+    top: -11px;
+}
+
+
+
+.block .two i{
+    display: inline-block;
+    background: url("img/dest/se2.png") no-repeat;
+    width: 24px;
+    height: 30px;
+    background-size: 100%;
+    position: absolute;
+    top: 16px;
+    left: 26px;
+}
+.block .two em{
+      font-size: 16px;
+    position: absolute;
+    left: 64px;
+   top: 19px;
+}
+.block .two .img{
+    display: block;
+    background: url("img/dest/z2.png") no-repeat;
+    width: 66px;
+    height: 55.5px;
+    background-size: 100%;
+        position: absolute;
+    left: 247px;
+    top: 0px;
+}
+
+
+.block .three i{
+    display: inline-block;
+    background: url("img/dest/se3.png") no-repeat;
+    width: 24px;
+    height: 30px;
+    background-size: 100%;
+    position: absolute;
+    top: 16px;
+    left: 26px;
+}
+.block .three em{
+       font-size: 16px;
+    position: absolute;
+    left: 64px;
+    top: 19px;
+}
+.block .three .img{
+    display: block;
+    background: url("img/dest/z3.png") no-repeat;
+    width: 66px;
+    height: 51px;
+    background-size: 100%;
+        position: absolute;
+    left: 247px;
+    top: 0px;
+}
+
+.block .four i{
+    display: inline-block;
+    background: url("img/dest/se4.png") no-repeat;
+    width: 24px;
+    height: 30px;
+    background-size: 100%;
+    position: absolute;
+    top: 16px;
+    left: 26px;
+}
+.block .four em{
+       font-size: 16px;
+    position: absolute;
+    left: 64px;
+    top: 19px;
+}
+.block .four .img{
+    display: block;
+    background: url("img/dest/z4.png") no-repeat;
+    width: 66px;
+    height: 63.5px;
+    background-size: 100%;
+        position: absolute;
+    left: 247px;
+    top: 0px;
+}
+
+.block .five i{
+    display: inline-block;
+    background: url("img/dest/se5.png") no-repeat;
+    width: 24px;
+    height: 30px;
+    background-size: 100%;
+    position: absolute;
+    top: 16px;
+    left: 26px;
+}
+.block .five em{
+        font-size: 16px;
+    position: absolute;
+    left: 64px;
+    top: 19px;
+}
+.block .five .img{
+    display: block;
+    background: url("img/dest/z5.png") no-repeat;
+    width: 66px;
+    height: 64px;
+    background-size: 100%;
+        position: absolute;
+    left: 247px;
+    top: 0px;
+}
+
+.part5_contain_right_top3{
+      background: url("img/dest/guanggao.jpg") no-repeat;
+          width: 349px;
+    height: 198px;
+    background-size: 100%;
+}
+.part6{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.part6_top1{
+    height: 43px;
+    /*background: #f1f1f1;*/
+}
+.tjimg{
+    background: url("img/dest/tj.png") no-repeat;
+    width: 64.5px;
+    height: 53px;
+    background-size: 100%;
+    float: left;
+        margin-top: -9px;
+}
+.part7_top1 .left i{
+    background: url("img/dest/dsy.png") no-repeat;
+    width: 36.5px;
+    height: 31px;
+    background-size: 100%;  
+    display: inline-block;
+        vertical-align: bottom;
+}
+
+.part7_top2_right ul li .first i{
+    display: inline-block;
+    background: url("img/dest/dianzan.png") no-repeat;
+    background-size: 100%;
+    width: 16px;
+height: 16px;
+    vertical-align: sub;
+    margin-right: 3px;
+}
+.part7_top2_right ul li .two i{
+    display: inline-block;
+    background: url("img/dest/pinglun.png") no-repeat;
+    background-size: 100%;
+    width: 16px;
+height: 14px;
+    vertical-align: bottom;
+     margin-right: 3px;
+}
+.part8{
+    background: url("img/dest/part8.jpg") no-repeat;
+width: 1100px;
+height: 98px;
+background-size: 100%;
+margin: 0 auto;
+margin-top: 20px;
+}
+.part9{
+    width: 1100px;
+    margin: 0 auto;
+        padding-top: 30px;
+}
+.part9 .part7_top1 .left i{
+        background: url("img/dest/pc2.png") no-repeat;
+    width: 49px;
+    height: 38px;
+    background-size: 100%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.jping{
+    background: url("img/dest/jp.png") no-repeat;
+    width: 64px;
+    height: 40px;
+    background-size: 100%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+.part10_top2 ul li dl dd.look i{
+    display: inline-block;
+    background: url("img/dest/ico1.png") no-repeat;
+    width: 22px;
+    height: 12.5px;
+    background-size: 100%;
+    margin-right: 5px;
+    vertical-align: text-top;
+}
+
+.part10_top2 ul li dl dd.pinglun i{
+    display: inline-block;
+    background: url("img/dest/ico2.png") no-repeat;
+    width: 15px;
+    height: 14px;
+    background-size: 100%;
+    margin-right: 5px;
+    vertical-align: text-top;
+}
+.part11{
+        background: url("img/dest/saoma.png") no-repeat;
+    width: 1100px;
+    height: 98px;
+    background-size: 100%;
+    margin: 0 auto;
+    margin-top: 36px;
+}
+
+
+.asd{
+        font-size: 16px;
+    color: #ff5a00;
+    margin-top: 31px;
+    text-align: center;
+}
+
+.qwe{
+        font-size: 16px;
+    color: #00aeff;
+    margin-top: 31px;
+    text-align: center;
+}
+
+.qaz{
+        font-size: 16px;
+    color: #ff0000;
+    margin-top: 31px;
+    text-align: center;
+}
+.zxc{
+        font-size: 16px;
+    color: #74c401;
+    margin-top: 31px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

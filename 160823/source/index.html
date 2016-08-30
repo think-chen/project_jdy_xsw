@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>迅狮网</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+        <link rel="stylesheet" href="//css.40017.cn/cn/c/zt/2015/common/common.0.0.1.css?v=2015121101">
+    <link rel="stylesheet" href="http://css.40017.cn/cn/min/??/cn/sl/zzy_zhuanti/hxy2015121601/index.css?v=1">
+        <link rel="stylesheet" href="index1.css">
+    <script src="http://js.40017.cn/cn/min/??/cn/v/2015/jqmodules/jQuery.js"></script>
+
+<script type="text/javascript"> 
+$(function () {
+    var $current_nav = $(".current_nav"); //current元素（当前所在导航项) 
+    var current_nav_width = $current_nav.innerWidth();
+    var current_nav_left = $current_nav.position().left;
+    var $nav_animate_block = $(".move-bg"); //动画滑块 
+    $nav_animate_block.css({
+        width: current_nav_width,
+        left: current_nav_left
+    }); //初始状态下，动画滑块位置在current元素 
+    // 鼠标进入a元素时触发动画事件 
+    $(".part2_contain ul li").hover(function () {
+        var index = $(this).index();
+        var $a_cur = $(".part2_contain").find("li").eq(index); //鼠标移动到的a元素 
+        //利用触发的a元素索引获取其left位置和它的宽度 
+        var width = $a_cur.innerWidth();
+        var left = $a_cur.position().left;
+        //设置动画滑块位置 
+        $nav_animate_block.stop().animate({
+            width: width,
+            left: left
+        }, 300)
+    }, function () {
+        //鼠标离开a元素时，动画滑块返回current元素位置 
+        $nav_animate_block.stop().animate({
+            width: current_nav_width,
+            left: current_nav_left
+        })
+    })
+});
+</script> 
+</head>
+
+<body>
+    <div class="header">
+        <div class="zdgn">
+            <ul>
+                <li class="dl">登陆</li>
+                <li class="zc">注册</li>
+                <li class="zhmm">找回密码</li>
+                <li class="serch"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="part1">
+        <div class="top1">
+            <div class="logo"></div>
+            <div class="zhuanti"></div>
+            <div class="search_input_out">
+                <i></i><input type="text" class="search_input" search-input="" placeholder="搜一搜给你想要的一切...">
+           </div>
+        </div>
+    </div>
+    <div class="part2">
+        <div class="part2_contain">
+            <ul>
+                <li class="first current_nav" id="id1"><i></i>首页</li>
+                <li class="two cur"  id="id2"><i></i>资讯</li>
+                <li class="three "><i></i>大狮野</li>
+                <li class="four "><i></i>新手</li>
+                <li class="five "><i></i>资源频道</li>
+                <li class="six "><i></i>视频</li>
+                <li class="seven "><i></i>评测</li>
+                <li class="eight "><i></i>活动</li>
+                <li class="nine "><i></i>社区</li>
+                <li class="ten"><i></i>产品库</li>
+            </ul>
+            <div class="move-bg"></div>
+        </div>
+    </div>
+    <div class="part3">
+        <div class="part3_contain">
+            <div class="part3_contain_left">
+                <div class="wrapper">
+                    <div id="focus">
+                        <ul>
+                            <li>
+                                <a href="http://www.17sucai.com/" target="_blank"><img src="img/dest/1.png" alt="" /></a>
+                                <span class="title">dasdasdadsadsfdsfds</span>
+                            </li>
+                            <li><a href="http://www.17sucai.com/" target="_blank"><img src="img/dest/1.png" alt="" /></a>
+                            <span class="title">dasdasdadsadsfdsfds</span>
+                            </li>
+                            <li><a href="http://www.17sucai.com/" target="_blank"><img src="img/dest/1.png" alt="" /></a>
+                            <span class="title">dasdasdadsadsfdsfds</span>
+                            </li>
+                            <li><a href="http://www.17sucai.com/" target="_blank"><img src="img/dest/1.png" alt="" /></a>
+                            <span class="title">dasdasdadsadsfdsfds</span>
+                            </li>
+                            <li><a href="http://www.17sucai.com/" target="_blank"><img src="img/dest/1.png" alt="" /></a>
+                            <span class="title">dasdasdadsadsfdsfds</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+             <div class="part3_contain_right">
+                   <div class="part3_contain_right_top1">
+                       <div class="one"></div>
+                       <div class="two">迅狮-还原黑科技观点</div>
+                       <div class="three">APP下载</div>
+                       <div class="ewm"></div>
+                   </div>
+                    <div class="part3_contain_right_top2">
+                        <div class="one"></div>
+                       <div class="two">迅狮-关注微信公众号赢大礼</div>
+                       <div class="three">APP下载</div>
+                        <div class="ewm"></div>
+                   </div>
+                    <div class="part3_contain_right_top3">
+                       <ul>
+                           <Li class="first">
+                               <i></i>
+                               精灵宝可梦
+                           </Li>
+                           <Li class="two">
+                               <i></i>
+                               饥荒
+                           </Li>
+                           <Li class="three">
+                               <i></i>
+                               Symmys
+                           </Li>
+                       </ul>
+                   </div>
+                <div class="part3_contain_right_top4">
+                   <a href="">大狮野</a>  |  <a href="">评测频道</a>  |  <a href="">迅狮商城</a>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div class="part4">
+         <div class="part4_contain_left">
+            <div class="title1">
+                <i>头条</i>好声音没了？我们为何期盼iPhone 7双扬声器
+            </div>
+            <ul class="news">
+                <li>新闻 丨 直接上图! 看iPhone 7与它们之间的外观差别</li>
+                <li class="two">新闻 丨 iPhone 7 Plus半成品车间实拍:  外观已确定？</li>
+                <li class="three">新闻 丨 纯黑色的iPhone 7 Plus疑曝光 颜值确实不错</li>
+                <li>新闻 丨 iPhone 7 生产图纸解读 双扬声器并不存在？</li>
+               <li class="two">新闻 丨 这是一剂预防针 iPhone 7配Lightning耳机恐成真</li>
+                <li class="four">新闻 丨 前方高能：据说这就是iPhone 7的生产图</li>
+            </ul>
+         </div>
+    </div>
+    <div class="part5 clearfix">
+         <div class="part5_contain_left">
+                <div class="tittle">
+                    <div class="zb"></div>
+                    <div class="yb">实时推荐</div>
+                </div>
+                <ul class="introdz">
+                    <li>
+                        <div class="touxiang"></div>
+                        <div class="maint">乔纳森设计背后的故事：苹果的成功你学不来!</div>
+                        <div class="look">
+                            <i></i>332
+                        </div>
+                        <div class="pinglun">
+                            <i></i>155
+                        </div>
+                        <div class="img"></div>
+                        <div class="introduce">明天要去厦门旅行了，简单收拾一下，话不多说，看图衣服什么的就没晒，本人也不用什么防晒霜，简单收拾一下必备的充电宝，旅行必备，虽说罗马仕的这款有点重，但胜在安全，上飞机也可以带。20000毫安也足够用了。魅...</div> 
+                    </li>
+                    <li class="one">
+                          <div class="touxiang"></div>
+                        <div class="maint">苹果就不能避免iPhone摄像头突起这个问题吗？</div>
+                        <div class="look">
+                            <i></i>332
+                        </div>
+                        <div class="pinglun">
+                            <i></i>155
+                        </div>
+                        <div class="img"></div>
+                        <div class="introduce">前一段时间，由于我的小米2s屏幕摔碎了，在资金紧缺的情况下，利用兼职赚的钱，想买一个
+                            几百块的手机。于是就问了问同学，接着在网上搜罗了一下。我本来开始是不准备再买小米的
+                            手机了，一是想换换其他牌子的手机用用，二是由于MIUI系统一些用不着的软件不能卸载，这
+                            样令人不爽。最开始我锁定了需要抢的
+                        </div> 
+                    </li>
+                    <li class="two">
+                        <div class="touxiang"></div>
+                        <div class="maint">【电子绘画】生命不息，折腾不止</div>
+                        <div class="look">
+                            <i></i>332
+                        </div>
+                        <div class="pinglun">
+                            <i></i>155
+                        </div>
+                        <div class="img"></div>
+                        <div class="introduce">明天要去厦门旅行了，简单收拾一下，话不多说，看图衣服什么的就没晒，本人也不用什么防
+                            晒霜，简单收拾一下必备的充电宝，旅行必备，虽说罗马仕的这款有点重，但胜在安全，上飞
+                            机也可以带。20000毫安也足够用了。魅...
+                        </div> 
+                    </li>
+                    <li class="three">
+                          <div class="touxiang"></div>
+                        <div class="maint">【电子绘画】ipad pro apple pencil重新找回绘画热情!</div>
+                        <div class="look">
+                            <i></i>332
+                        </div>
+                        <div class="pinglun">
+                            <i></i>155
+                        </div>
+                        <div class="img"></div>
+                        <div class="introduce">明天要去厦门旅行了，简单收拾一下，话不多说，看图衣服什么的就没晒，本人也不用什么防
+                            晒霜，简单收拾一下必备的充电宝，旅行必备，虽说罗马仕的这款有点重，但胜在安全，上飞
+                            机也可以带。20000毫安也足够用了。魅...
+                        </div> 
+                    </li>
+                    <li class="four">
+                          <div class="touxiang"></div>
+                        <div class="maint">智云 SmoothⅡ体验试用</div>
+                        <div class="look">
+                            <i></i>332
+                        </div>
+                        <div class="pinglun">
+                            <i></i>155
+                        </div>
+                        <div class="img"></div>
+                        <div class="introduce">这次测试的产品应该算是一款有一定专业性的产品，由于平日并没有接触视频制作，所以这次
+                            申请纯属是对稳定器这类产品的好奇，所以无论是对产品见解还是视频制作水平都非常有限，
+                            请众Z友们多多包涵，科科……
+                        </div> 
+                    </li>
+                </ul>
+                <div class="more">
+                    加载更多
+                </div>
+         </div>
+         <div class="part5_contain_right">
+            <div class="part5_contain_right_top1">
+               <div class="redian">一周热点</div>
+               <div class="oneimg"></div>
+               <div class="one"></div>
+               <div class="intro">到底值不值 Insta360景相Nano 全机评测</div>
+               <div class="intro1 intro0"><i>2</i>  <em>在VR道路A上越走越远 《纽约时报》收购VR广告公司越远纽约时报!</em></div>
+               <div class="intro2 intro0"><i>3</i> <em>PSVR入门游戏合辑已完成开发</em></div>
+               <div class="intro3 intro0"><i>4</i> <em>交互界“扛把子” uSens凌感用双手拥抱移动VR</em></div>
+               <div class="intro4 intro0"><i>5</i> <em>论怎样使女生看到VR体验像看到衣服鞋子包包一样疯狂样像看到衣服</em></div>
+               <div class="intro5 intro0"><i>6</i> <em>《环太平洋》VR机甲游戏：解决人机互动不匹配是关键</em></div>
+            </div>
+            <div class="part5_contain_right_top2">
+                <ul class="tab clearfix">
+                    <li class="active">硬件排行</li>
+                    <li>游戏排行</li>
+                </ul>
+                <div class="block">
+                    <div class="one content">
+                        <i></i><em>HTC vive</em><span class="img"></span>
+                    </div>
+                    <div class="two content">
+                        <i></i><em>SONY PlayStation VR</em><span class="img"></span>
+                    </div>
+                    <div class="three content">
+                         <i></i><em>Gear VR</em><span class="img"></span>
+                    </div>
+                    <div class="four content">
+                         <i></i><em>Oculus Rift</em><span class="img"></span>
+                    </div>
+                    <div class="five content">
+                        <i></i><em>OZO</em><span class="img"></span>
+                    </div>
+                </div>
+                <div class="block none">
+                    
+                </div>
+            </div>
+            <div class="part5_contain_right_top3">
+                
+            </div>
+         </div>
+    </div>
+    <div class="part6 clearfix">
+        <div class="part6_top1">
+            <div class="tjimg"></div>
+            <div class="tuijianmaint">
+                <div class="tuijian">推荐视频&游戏</div>
+                <div class="tabchange">
+                    <ul class="clearfix">
+                        <li class="active">推荐游戏</li>
+                        <li>推荐视频</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="part6_top2">
+                <li>
+                    <dl>
+                        <dt>
+                            <img src="img/dest/t1.jpg" alt="">
+                        </dt>
+                        <dd class="name">
+                            遗落战境
+                        </dd>
+                        <dd class="action">
+                            立即下载
+                        </dd>
+                    </dl>
+                </li>
+                  <li>
+                    <dl>
+                        <dt>
+                            <img src="img/dest/t2.jpg" alt="">
+                        </dt>
+                        <dd class="name">
+                            怪奇物语
+                        </dd>
+                        <dd class="action">
+                            立即下载
+                        </dd>
+                    </dl>
+                </li>
+                  <li>
+                    <dl>
+                        <dt>
+                            <img src="img/dest/t3.jpg" alt="">
+                        </dt>
+                        <dd class="name">
+                            高空清洁
+                        </dd>
+                        <dd class="action">
+                            立即下载
+                        </dd>
+                    </dl>
+                </li>
+                  <li>
+                    <dl>
+                        <dt>
+                            <img src="img/dest/t4.jpg" alt="">
+                        </dt>
+                        <dd class="name">
+                            珠峰 VR
+                        </dd>
+                        <dd class="action">
+                            立即下载
+                        </dd>
+                    </dl>
+                </li>
+                  <li>
+                    <dl>
+                        <dt>
+                            <img src="img/dest/t5.jpg" alt="">
+                        </dt>
+                        <dd class="name">
+                            暗杀神 VR
+                        </dd>
+                        <dd class="action">
+                            立即下载
+                        </dd>
+                    </dl>
+                </li>
+        </ul>
+        <ul class="part6_top2 none">
+                <li>
+                    <dl>
+                        <dt>
+                            <img src="img/dest/t1.jpg" alt="">
+                        </dt>
+                        <dd class="name">
+                            遗落战境
+                        </dd>
+                        <dd class="action">
+                            立即下载
+                        </dd>
+                    </dl>
+                </li>
+                  <li>
+                    <dl>
+                        <dt>
+                            <img src="img/dest/t2.jpg" alt="">
+                        </dt>
+                        <dd class="name">
+                            怪奇物语
+                        </dd>
+                        <dd class="action">
+                            立即下载
+                        </dd>
+                    </dl>
+                </li>
+                  <li>
+                    <dl>
+                        <dt>
+                            <img src="img/dest/t3.jpg" alt="">
+                        </dt>
+                        <dd class="name">
+                            高空清洁
+                        </dd>
+                        <dd class="action">
+                            立即下载
+                        </dd>
+                    </dl>
+                </li>
+                  <li>
+                    <dl>
+                        <dt>
+                            <img src="img/dest/t4.jpg" alt="">
+                        </dt>
+                        <dd class="name">
+                            珠峰 VR
+                        </dd>
+                        <dd class="action">
+                            立即下载
+                        </dd>
+                    </dl>
+                </li>
+                  <li>
+                    <dl>
+                        <dt>
+                            <img src="img/dest/t5.jpg" alt="">
+                        </dt>
+                        <dd class="name">
+                            暗杀神 VR
+                        </dd>
+                        <dd class="action">
+                            立即下载
+                        </dd>
+                    </dl>
+                </li>
+        </ul>
+    </div>
+    <div class="part7 clearfix">
+        <div class="part7_top1 clearfix">
+            <div class="left">
+                <i></i>
+                <span class="dsy">大狮野</span>
+                <em>从专业的角度还原黑科技观点</em>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>观点</li>
+                    <li>硬件</li>
+                    <li>软件</li>
+                    <li>快讯</li>
+                    <li>本周最热</li>
+                </ul>
+                <div class="go">进入频道</div>
+            </div>
+        </div>
+        <div class="part7_top2 clearfix">
+            <div class="part7_top2_left">
+                <img src="img/dest/baidu.png" alt="">
+                <span class="meng"></span>
+                <span class="zr">本周最热</span>
+                <span class="maint">为了“黑”百度大家都使出了洪荒之力|一周热评</span>
+                <span class="subt">上周最火的莫过于在奥运会上使出洪荒之力的“超级网红”傅园慧，这位耿直率真的游泳小将凭借自带表情包而火遍全球...</span>
+            </div>
+            <div class="part7_top2_right">
+                <ul class="clearfix">
+                    <li>
+                        <span class="guandian">观点</span>
+                        <span class="maint">这两款靠颜值取胜的手机却败在了安全问题上</span>
+                        <span class="subt">对于美图、SUGAR这样的女性手机厂商来说，靠“颜值”吃饭的同时，也应该要保障产品的安全性，这是对用户最基本的尊重...</span>
+                        <div class="dzpl">
+                            <span class="first"><i></i>10</span>
+                            <span class="two"><i></i>20</span>
+                        </div>
+                    </li>
+                    <li class="two">
+                          <span class="guandian">硬件</span>
+                        <span class="maint">这两款靠颜值取胜的手机却败在了安全问题上</span>
+                        <span class="subt">对于美图、SUGAR这样的女性手机厂商来说，靠“颜值”吃饭的同时，也应该要保障产品的安全性，这是对用户最基本的尊重...</span>
+                        <div class="dzpl">
+                            <span class="first"><i></i>10</span>
+                            <span class="two"><i></i>20</span>
+                        </div>
+                    </li>
+                    <li class="three">
+                          <span class="guandian">硬件</span>
+                        <span class="maint">这两款靠颜值取胜的手机却败在了安全问题上</span>
+                        <span class="subt">对于美图、SUGAR这样的女性手机厂商来说，靠“颜值”吃饭的同时，也应该要保障产品的安全性，这是对用户最基本的尊重...</span>
+                        <div class="dzpl">
+                            <span class="first"><i></i>10</span>
+                            <span class="two"><i></i>20</span>
+                        </div>
+                    </li>
+                    <li class="four">
+                          <span class="guandian">硬件</span>
+                        <span class="maint">这两款靠颜值取胜的手机却败在了安全问题上</span>
+                        <span class="subt">对于美图、SUGAR这样的女性手机厂商来说，靠“颜值”吃饭的同时，也应该要保障产品的安全性，这是对用户最基本的尊重...</span>
+                        <div class="dzpl">
+                            <span class="first"><i></i>10</span>
+                            <span class="two"><i></i>20</span>
+                        </div>
+                    </li>
+                    <li>
+                          <span class="guandian">观点</span>
+                        <span class="maint">这两款靠颜值取胜的手机却败在了安全问题上</span>
+                        <span class="subt">对于美图、SUGAR这样的女性手机厂商来说，靠“颜值”吃饭的同时，也应该要保障产品的安全性，这是对用户最基本的尊重...</span>
+                        <div class="dzpl">
+                            <span class="first"><i></i>10</span>
+                            <span class="two"><i></i>20</span>
+                        </div>
+                    </li>
+                    <li>
+                          <span class="guandian">观点</span>
+                        <span class="maint">这两款靠颜值取胜的手机却败在了安全问题上</span>
+                        <span class="subt">对于美图、SUGAR这样的女性手机厂商来说，靠“颜值”吃饭的同时，也应该要保障产品的安全性，这是对用户最基本的尊重...</span>
+                        <div class="dzpl">
+                            <span class="first"><i></i>10</span>
+                            <span class="two"><i></i>20</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="part8">
+        
+    </div>
+    <div class="part9">
+        <div class="part7_top1 clearfix">
+            <div class="left">
+                <i></i>
+                <span class="dsy">评测频道</span>
+                <em>用客观专业的角度评测每一款产品</em>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>游戏</li>
+                    <li>硬件</li>
+                    <li>应用</li>
+                    <li>专题</li>
+                    <li>本周最热</li>
+                </ul>
+                <div class="go">进入频道</div>
+            </div>
+        </div>
+        <div class="part9_top2">
+            <ul>
+                <li class="part9_top2_ul_li">
+                    <div class="default">
+                        <div class="asd">
+                            游戏
+                        </div>
+                        <div class="default-slider">
+                            <ul>
+                                <li>
+                                    <dl>
+
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                               <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="two part9_top2_ul_li">
+                    <div class="default">
+                        <div class="qwe">
+                            游戏
+                        </div>
+                        <div class="default-slider">
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                               <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="three part9_top2_ul_li">
+                    <div class="default">
+                         <div class="qaz">
+                            游戏
+                        </div>
+                        <div class="default-slider">
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                               <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="four part9_top2_ul_li">
+                    <div class="default">
+                        <div class="zxc">
+                            游戏
+                        </div>
+                        <div class="default-slider">
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                               <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dd class="intro">
+                                            魔法门之英雄无敌
+                                        </dd>
+                                        <dd class="zhishu">
+                                            迅狮指数
+                                        </dd>
+                                        <dd class="level">
+                                            <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">  <img src="img/dest/no.png" alt="">    
+                                        </dd>
+                                        <dd class="imgbox">
+                                            <img src="img/dest/q1.png" alt="">
+                                        </dd>
+                                        <dd class="more1">
+                                            查看详细评测
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="part10 clearfix">
+        <div class="part6_top1 part10_top1">
+            <div class="jping"></div>
+            <div class="tuijianmaint">
+                <div class="tuijian">社区精品&好文</div>
+                <div class="tabchange">
+                    <ul class="clearfix">
+                        <li class="active">社区精品</li>
+                        <li>推荐好文</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="part10_top2">
+            <ul class="part10_top2_tab clearfix">
+                <li class="one">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                <li class="two">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+                        
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                <li class="three">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+                        
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                <li class="four">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+                        
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                <li class="one">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                <li class="two">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+                        
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                <li class="three">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+                        
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                <li class="four">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+                        
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                                <li class="one">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                <li class="two">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+                        
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                <li class="three">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+                        
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                <li class="four">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+                        
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+            <ul class="part10_top2_tab clearfix none">
+                <li class="one">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                <li class="two">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+                        
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                <li class="three">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+                        
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+                <li class="four">
+                    <dl>
+                        <dt>
+                              <img src="img/dest/jpcp.png" alt="">
+                        </dt>
+                        <dd class="intro">
+                            极简桌面丨极简至美 less is more
+                        </dd>
+                        <dd class="huiyuan">
+                            <img src="img/dest/jptx.png" alt=""><i>w12545</i>
+                        </dd>
+                        
+                        <dd class="look">
+                            <i></i>332
+                        </dd>
+                        <dd class="pinglun">
+                            <i></i>155
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="part11">
+           
+    </div>
+    <div style="display:block;" class="dibufooter">
+        <div id="footer">
+            <ul class="clearfix">
+                <li class="first">
+                    <img src="img/dest/xunshilogo.png" alt="">
+                </li>
+                <li>
+                    <ul class="tcAboat"> 
+                        <li> 
+                            <h2>业务</h2> 
+                        </li>
+                         <li> 
+                            <a target="_blank" title="广告投放" href="" rel="nofollow">广告投放</a> 
+                        </li> 
+                        <li> 
+                            <a target="_blank" title="寻求报道" href="" rel="nofollow">寻求报道</a> 
+                        </li> 
+                        <li> 
+                            <a target="_blank" title="评测申请" href="" rel="nofollow">评测申请</a> 
+                        </li> 
+                        <li> 
+                            <a target="_blank" title="企业解决方案" href="">企业解决方案</a> 
+                        </li> 
+                    </ul>
+                </li>
+                <li>
+                   <ul class="joinTc">
+                        <li>
+                             <h2>关于我们</h2> 
+                        </li>
+                        <li> <a target="_blank" title="会员条款" href="" rel="nofollow">会员条款</a> 
+                        </li>
+                        <li> <a target="_blank" title="加入我们" href="" rel="nofollow">加入我们</a> 
+                        </li>
+                        <li> <a target="_blank" title="关于迅狮" href="" rel="nofollow">关于迅狮</a> 
+                    </ul>
+                </li>
+                <li>
+                     <ul class="joinTc">
+                        <li>
+                             <h2>关注我们</h2> 
+                        </li>
+                        <li> <a target="_blank" title="新浪微博" href="" rel="nofollow">新浪微博</a> 
+                        </li>
+                        <li> <a target="_blank" title="联系我们" href="" rel="nofollow">联系我们</a> 
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="joinTc">
+                        <li>
+                             <h2>自媒体</h2> 
+                        </li>
+                        <li> <a target="_blank" title="自媒体条款" href="" rel="nofollow">自媒体条款</a> 
+                        </li>
+                        <li> <a target="_blank" title="认证规则" href="" rel="nofollow">认证规则</a> 
+                        </li>
+                        <li> <a target="_blank" title="分成细则" href="" rel="nofollow">分成细则</a> 
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <dl>
+                        <dt>微信公众号</dt>
+                        <dd>
+                            <img src="img/dest/smewm.png" alt="">
+                        </dd>
+                    </dl>
+                </li>
+                <li class="appxiazai">
+                    <dl>
+                        <dt>APP下载</dt>
+                        <dd>
+                              <img src="img/dest/app.png" alt="">
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+            <div class="copyright">
+                本站由 阿里云 提供云计算处理  © 2011~2016 迅狮 | 苏ICP备12031756号 | 苏ICP证150143号 | 苏公网安备11010802020581号
+            </div>
+        </div>
+    </div>
+    <script src="http://js.40017.cn/cn/min/???/cn/public/fish.1.4.5.js"></script>
+        <script src="//js.40017.cn/cn/v/2015/jqmodules/unslider/2.0.0/index.js"></script>
+         <script>
+                window.onload=function(){
+                   $(".unslider-arrow").html(" ")
+                } 
+         </script>
+         <script>
+        jQuery(function(){
+            var defaultSliderEle = $(".default-slider").unslider({
+
+                autoplay: false,
+                keys: true,               // 支持键盘
+                arrows: true,             // unslider-arrow  default arrows   or  false
+                nav: true,                // unslider-nav
+                animation: "horizontal"  // vertical  fade
+            });
+            // pause: true
+            var defaultSlider = defaultSliderEle.data("unslider");
+            // console.log(defaultSlider)
+            defaultSliderEle.hover(function (e) {
+                defaultSlider.stop();
+            }, function (e) {
+                defaultSlider.start();
+            });
+        });
+       
+    </script>
+    <script type="text/javascript">
+        $(function() {
+    var sWidth = $("#focus").width(); //获取焦点图的宽度（显示面积）
+    var len = $("#focus ul li").length; //获取焦点图个数
+    var index = 0;
+    var picTimer;
+    
+    //以下代码添加数字按钮和按钮后的半透明条，还有上一页、下一页两个按钮
+    var btn = "<div class='btnBg'></div><div class='btn'>";
+    for(var i=0; i < len; i++) {
+        btn += "<span></span>";
+    }
+    btn += "</div><div class='preNext pre'></div><div class='preNext next'></div>";
+    $("#focus").append(btn);
+    $("#focus .btnBg").css("opacity",0.5);
+
+    //为小按钮添加鼠标滑入事件，以显示相应的内容
+    $("#focus .btn span").css("opacity",0.4).mouseover(function() {
+        index = $("#focus .btn span").index(this);
+        showPics(index);
+    }).eq(0).trigger("mouseover");
+
+    //上一页、下一页按钮透明度处理
+    $("#focus .preNext").css("opacity",0.2).hover(function() {
+        $(this).stop(true,false).animate({"opacity":"0.5"},300);
+    },function() {
+        $(this).stop(true,false).animate({"opacity":"0.2"},300);
+    });
+
+    //上一页按钮
+    $("#focus .pre").click(function() {
+        index -= 1;
+        if(index == -1) {index = len - 1;}
+        showPics(index);
+    });
+
+    //下一页按钮
+    $("#focus .next").click(function() {
+        index += 1;
+        if(index == len) {index = 0;}
+        showPics(index);
+    });
+
+    //本例为左右滚动，即所有li元素都是在同一排向左浮动，所以这里需要计算出外围ul元素的宽度
+    $("#focus ul").css("width",sWidth * (len));
+    
+    //鼠标滑上焦点图时停止自动播放，滑出时开始自动播放
+    $("#focus").hover(function() {
+        clearInterval(picTimer);
+    },function() {
+        picTimer = setInterval(function() {
+            showPics(index);
+            index++;
+            if(index == len) {index = 0;}
+        },4000); //此4000代表自动播放的间隔，单位：毫秒
+    }).trigger("mouseleave");
+    
+    //显示图片函数，根据接收的index值显示相应的内容
+    function showPics(index) { //普通切换
+        var nowLeft = -index*sWidth; //根据index值计算ul元素的left值
+        $("#focus ul").stop(true,false).animate({"left":nowLeft},300); //通过animate()调整ul元素滚动到计算出的position
+        //$("#focus .btn span").removeClass("on").eq(index).addClass("on"); //为当前的按钮切换到选中的效果
+        $("#focus .btn span").stop(true,false).animate({"opacity":"0.4"},300).eq(index).stop(true,false).animate({"opacity":"1"},300); //为当前的按钮切换到选中的效果
+    }
+});
+</script>
+
+    <script src="index.js"></script>    
+
+</body>
+</html>

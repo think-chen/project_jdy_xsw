@@ -1,0 +1,744 @@
+body {
+    font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+.clearfix{
+	clear: both;
+}
+html {
+    min-width: 1190px
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    height: auto;
+    min-height: 800px;
+    font-family: 'Microsoft YaHei', 'Apple LiGothic Medium', Arial, sans-serif;
+    position: relative;
+    background: #fff;
+    margin-top: 32px;
+}
+.topNavWrapper{
+	    min-width: 990px;
+	        background: #fafafa;
+    border-bottom: 1px solid #f1f1f1;
+    z-index: 9999;
+    height: 41px;
+    background: #000;
+}
+.headermaincontent{
+	width: 1100px;
+	margin: 0 auto;
+	    height: 41px;
+    position: relative;	    
+}
+.headermaincontent .left{
+	margin-left: -25px;
+}
+.headermaincontent .left li{
+    float: left;
+    height: 41px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 3.6;
+    margin-left: 25px;
+}
+.headermaincontent .left li a{
+	color: #fff;
+}
+.headermaincontent .right{
+	float: right;
+}
+.headermaincontent .right li{
+	  float: left;
+    height: 41px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 3.6;
+    margin-left: 25px;
+}
+.headermaincontent .right li a{
+	color: #fff;
+}
+.headermaincontent .left li.active{
+	position: relative;
+}
+.headermaincontent .left li.active:before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 6px solid #fff;
+    bottom: 0px;
+    left: 4px;
+}
+.headerWrapper{
+	height: 58px;
+	width: 100%;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.headerWrapper .xslogo{
+	background: url("img/dest/xslogo.png") no-repeat;
+    display: inline-block;
+	width: 138px;
+	height: 40px;
+	background-size: 100%;
+}
+.headerWrappercontent{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.headerWrapper .news{
+    font-size: 46px;
+    color: #00a8ff;
+    display: inline-block;
+    margin-left: 15px;
+}
+.headerWrapper .liebiao {
+	display: inline-block;
+	    margin-left: 10px;
+}
+.headerWrapper .liebiao li{
+	    float: left;
+    height: 58px;
+    font-size: 14px;
+    line-height: 5;
+    margin-left: 25px;
+}
+.headerWrapper .liebiao li a{
+	color: #000;
+}
+.search_input_out{
+	float: right;
+    background: #ececec;
+    width: 186px;
+    height: 30px;
+    margin-top: 20px;
+        position: relative;
+}
+.search_input {
+    color: #aeaeae;
+    background: #ececec;
+    top: 13px;
+    border: 0;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 11px;
+}
+.search_input_out i {
+    background: url("img/dest/fangda.png") no-repeat;
+    width: 20px;
+    height: 18px;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 14px;
+    position: absolute;
+    right: 18px;
+}
+.leftcontainer,.rightcontainer{
+	float: left;
+}
+.leftcontainer{
+	width: 725px;
+}
+.rightcontainer{
+	width: 319px;
+	margin-left: 56px;
+}
+.leftcontainer .left,.leftcontainer .right{
+	float: left;
+  height: 299px;
+}
+
+.leftcontainer .left{
+	width: 442px;
+}
+
+.leftcontainer .right{
+	width: 200px;
+	margin-left: 11px;
+}
+.unslider-wrap.unslider-carousel li {
+    float: left;
+    width: 442px;
+  height: 299px;
+  position: relative;
+}
+.unslider-wrap.unslider-carousel li img{
+	width: 442px;
+  height: 299px;
+}
+.unslider-wrap {
+    position: relative;
+}
+.leftcontainer .right a{
+	display: block;
+}
+.leftcontainer .right a.top2{
+	margin-top: 11px;
+}
+.leftcontainer .right a img{
+	display: block;
+	width: 251px;
+	height: 144px;
+}
+.cp{
+	margin-top: 303px;
+}
+.cp li{
+	height: 263px;
+	width: 700px;
+	border-bottom: 1px solid #ececec;
+    position: relative;
+}
+
+.cp li dl dt{
+    width: 179px;
+    height: 134px;
+    position: absolute;
+    top: 61px;
+    left: 0;
+}
+.cp li dl dt img{
+	display: block;
+    width: 179px;
+    height: 134px;
+}
+.cp li dl dd.maintitle{
+	font-size: 21px;
+	overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+    position: absolute;
+    left: 195px;
+      top: 57px;
+        line-height: 1.4;
+            width: 464px;
+}
+.cp li dl dd.time{
+	    position: absolute;
+    left: 195px;
+    top: 96px;
+    font-size: 12px;
+    color: #828282;
+}
+.cp li dl dd.time .nicheng{
+	color: #ff4242;
+}
+.cp li dl dd.time .touxiang img{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: bottom;
+        margin-right: 10px;
+}
+.cp li dl dd.look{
+    position: absolute;
+    right: 72px;
+    top: 88px;
+    color: #ff4545;
+    margin-top: 10px;
+} 
+.cp li dl dd.look i{
+	display: inline-block;
+    background: url("img/dest/ico1.png") no-repeat;
+    width: 22px;
+    height: 12.5px;
+    background-size: 100%;
+    margin-right: 5px;
+    vertical-align: text-top;
+}
+
+.cp li dl dd.pinglun{
+	position: absolute;
+    right: 13px;
+    top: 88px;
+    color: #ff4545;
+    margin-top: 10px;
+} 
+.cp li dl dd.pinglun i{
+	display: inline-block;
+    background: url("img/dest/ico2.png") no-repeat;
+    width: 15px;
+    height: 14px;
+    background-size: 100%;
+    margin-right: 5px;
+    vertical-align: text-top;
+}
+.cp li dl dd.subt{
+    font-size: 12px;
+    color: #5f5f5f;
+    width: 506px;
+    left: 195px;
+    top: 130px;
+    position: absolute;
+    line-height: 2;
+}
+.cp li dl dd.biaoqian{
+	position: absolute;
+	 left: 195px;
+       top: 217px;
+       font-size: 12px;
+       color: #ff4545;
+}
+.cp li dl dd.biaoqian i{
+	background: url("img/dest/1.1.png") no-repeat;
+	width: 17px;
+	height: 20px;
+	background-size: 100%;
+	display: inline-block;
+}
+.cp li dl dd.biaoqian em{
+	    margin-left: 10px;
+    display: inline-block;
+        vertical-align: super;
+}
+.more{
+    width: 257px;
+    text-align: center;
+    height: 36px;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 18px;
+    line-height: 2.6;
+    border: 1px solid #dadada;
+    color: #dadada;
+}
+.rightcontainer .rmgjc .gjc{
+    font-size: 16.5px;
+    color: #000;
+    height: 30px;
+     border-bottom: 1px solid #dadada;
+}
+
+.rightcontainer .guanjianci li{
+    float: left;
+    padding: 4px 11px 4px 11px;
+    border: 1px solid #f1f1f0;
+    color: #b2b2b2;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+.rightcontainer .guanjianci{
+	    margin-left: -8px;
+    margin-top: 8px;
+}
+.hour{
+    margin-top: 53px;
+    font-size: 18px;
+    /*border-bottom: 1px solid #dadada;*/
+}
+.hour .xsrwb i{
+    color: #ff4242;
+}
+
+.hour .xsrwb em{
+	border-radius: 20px;
+	float: right;
+	background: #ff4242;
+	color: #fff;
+	font-size: 14px;
+	  width: 65px;
+      height: 24px;
+	    text-align: center;
+        line-height: 1.8;
+}
+.article li{
+	margin-top: 13px;
+	    font-size: 12px;
+    color: #5f5f5f;
+}
+.article li:hover{
+	color: #ff4242;
+	cursor: pointer;
+}
+.article{
+	display: block;
+    margin-top: 30px;
+}
+.cp li dl dd.maintitle:hover{
+	color: #ff4242;
+	cursor: pointer;
+}
+.mfsy img{
+	display: block;
+    width: 100%;
+    height: 162px;
+}
+.mfsy{
+	margin-top: 50px;
+}
+.tjzzname{
+	    font-size: 18px;
+    color: #000;
+}
+
+.tjzz{
+	margin-top: 20px;
+	        /*border-bottom: 1px solid #dadada;*/
+}
+.tjzz .tjzzname{
+	display: inline-block;
+}
+.tjzz .gengduo{
+	display: inline-block;
+	float: right;
+	font-size: 15px;
+}
+.tjzz .gengduo a{
+		color: #b2b2b2;
+        font-size: 12px;
+}
+.morezz li{
+	height: 115px;
+	  border-bottom: 1px solid #ececec;
+	  position: relative;
+}
+.morezz li dl dt{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    top: 40px;
+}
+.morezz li dl dt img{
+	display: block;
+	     width: 49px;
+    height: 48px;
+    border-radius: 50px;
+}
+.morezz li dl .name{
+    font-size: 16px;
+    color: #ff4545;
+    position: absolute;
+    top: 40px;
+    left: 66px;
+}
+.morezz li dl .subt{
+    color: #8b8b8b;
+    font-size: 12px;
+    position: absolute;
+    line-height: 1.2;
+    top: 68px;
+    left: 66px;
+    width: 256px;
+}
+.xrrz {
+    margin-top: 50px;
+}
+
+.xrrz img {
+    display: block;
+        width: 100%;
+    height: 162px;
+}
+
+.dibufooter {
+    padding-top: 70px;
+}
+#footer {
+    background: #000;
+    min-width: 1200px;
+    padding-bottom: 10px;
+    height: 226px;
+    padding-top: 80px;
+}
+#header .headerContent, #header .headerNav, #footer>ul, .friendLink .friendMain, #contactUs {
+    width: 1161px;
+    margin: 0 auto;
+}
+#footer>ul {
+    border-bottom: 1px dashed #000;
+    padding: 18px 0;
+}
+#footer ul li.first {
+    margin-top: 22px;
+    margin-right: 80px;
+    margin-left: -8px;
+}
+#footer>ul>li {
+    float: left;
+}
+
+#footer>ul>li {
+    float: left;
+}
+
+.tcAboat, .joinTc, .contactTc, .tcWebSite {
+    width: 180px;
+}
+#footer>ul>li ul li {
+    padding: 5px 0 0;
+}
+
+#footer>ul h4, #footer>ul h2 {
+    font-size: 13px;
+    line-height: 24px;
+    padding: 0 0 5px;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#footer ul li dl {
+    width: 130px;
+}
+
+#footer ul li dl dt {
+    font-size: 13px;
+    line-height: 24px;
+    padding: 0 0 5px;
+    color: #fff;
+}
+#footer ul li dl dd img {
+    width: 98px;
+    height: 98px;
+}
+.copyright {
+    width: 1200px;
+    color: #979797;
+    margin: 0 auto;
+    border-top: 1px solid #979797;
+    text-align: center;
+    padding-top: 18px;
+}
+#footer>ul a {
+    color: #979797;
+    display: inline-block;
+}
+
+#footer ul li.first img {
+    display: block;
+    width: 108.5px;
+    height: 80.5px;
+}
+
+
+.cp li dl{
+        margin-top: -19px;
+}
+.xsrwb{
+    height: 50px;
+    border-bottom: 1px solid #dadada;
+}
+
+.hengxian{
+    width: 100%;
+    height: 10px;
+     border-bottom: 1px solid #dadada;
+}
+.morezz li dl{
+        margin-top: -14px;
+}
+.rightcontainer .guanjianci li:hover{
+    color: #ff4242;
+    cursor: pointer;
+     border: 1px solid #ff4242;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
